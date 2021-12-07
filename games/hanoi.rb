@@ -12,4 +12,8 @@ def hanoi(disks, from, to, middle)
   end
 end
 
-hanoi(64,"start","finish","middle")
+puts " --- 3 rings ---"
+hanoi(3,"start","finish","middle")
+
+puts " --- 4 rings ---"
+hanoi(4,"start","finish","middle")
